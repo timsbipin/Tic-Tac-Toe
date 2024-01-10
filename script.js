@@ -66,5 +66,5 @@ for( let pattern of winPatterns){
     }
 }
  };
- newbtn.addEventListener("click",resetGame);
+ newbtn.addEventListener("click",resetGame);//nebutton functionality add
  resetbtn.addEventListener("click",resetGame);
