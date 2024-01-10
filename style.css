@@ -32,13 +32,38 @@ text-align: center;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size: 8vmin;
     color:#ef476f;
+    background-color: azure;
 }
 #reset{
-    height:5vmin;
-    width: 10vmin;
     background-color:cadetblue;
-    font-weight: 200;
+    font-size: 1.25rem;
     color: darkblue;
+    border: radius 0.5rem;
+    border: none;
 }
+#new-btn{
+    background-color:cadetblue;
+    font-size: 1.25rem;
+    color: darkblue;
+    border: radius 0.5rem;
+    border: none; 
+}
+#msg{
+   color: #ffffc7;
+   font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+
+
 
    
